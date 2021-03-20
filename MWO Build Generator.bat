@@ -1,0 +1,1 @@
+start javaw --enable-preview -jar "MWO Build Generator".jar
