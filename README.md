@@ -60,6 +60,8 @@ What it Takes Into Account:
     for each loadout, if the arms are not needed they are stripped and the weight is used for additional heat sinks
 
     MASC bonus is averaged and applied to allow 'mechs to take lighter engines while still reaching the desired speed.
+    
+    ghost heat - can prevent ghost heat, or allow certain amounts of ghost heat
 
 
 What it Doesn't Take Into Account:
