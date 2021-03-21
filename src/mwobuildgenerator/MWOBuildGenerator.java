@@ -92,19 +92,19 @@ public interface MWOBuildGenerator{
 			final var numLoadoutsPerMechConfig=propertiesFetcher.parseInt("numLoadouts");
 			final var filePathSeparator=File.separator;
 			final var outputDirectoryStructure=tag+" "
-				+(useJumpCapableOnly?"jump capable mechs only"+filePathSeparator:"")
-				+(useEcmCapableOnly?"ecm mechs only"+filePathSeparator:"")
+				+(useJumpCapableOnly?"jump capable"+filePathSeparator:"")
+				+(useEcmCapableOnly?"ecm capable"+filePathSeparator:"")
 				+(useEcmWeight?"using ecm"+filePathSeparator:"")
-				+(useExactDPE?"using exact shots per engagement"+filePathSeparator:"")
+				+(useExactDPE?"using exact shots"+filePathSeparator:"")
 				+(targetHslGroups>1?"hsl groups "+targetHslGroups+filePathSeparator:"")
-				+(useEngageInterval?"considering engage interval"+filePathSeparator+"engage interval weight"+engageIntervalFactor+filePathSeparator:"")
+				+(useEngageInterval?"consider engage interval"+filePathSeparator+"interval weight"+engageIntervalFactor+filePathSeparator:"")
 				+"min tonnage "
 				+targetWeightMin
 				+filePathSeparator
 				+"max tonnage "
 				+targetWeightMax
 				+filePathSeparator
-				+"armor trim coefficient "
+				+"armor trim "
 				+baseArmorDecreaseFactor
 				+filePathSeparator
 				+"ammo life span"
