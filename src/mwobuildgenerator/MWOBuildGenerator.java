@@ -107,7 +107,7 @@ public interface MWOBuildGenerator{
 				+"armor trim "
 				+baseArmorDecreaseFactor
 				+filePathSeparator
-				+"ammo life span"
+				+"ammo life span "
 				+targetAmmoLifeSpan
 				+filePathSeparator
 				+"range "
